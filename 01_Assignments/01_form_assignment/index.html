@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="./thankyou.html">
+        <div class="row">
+          <div class="form-control">
+            <label for="country">Select country</label>
+            <select name="country" id="country" required>
+              <option value="">Select country</option>
+              <option value="pk">Pakistan</option>
+              <option value="tr">Turkey</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="city">Select city</label>
+            <select name="city" id="city" required>
+              <option value="">Select city</option>
+              <option value="Khi">Karachi</option>
+              <option value="fsl">Faisalabad</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-control">
+            <label for="course">Select course or event</label>
+            <select id="course" name="course" required>
+              <option value="">Select course or event</option>
+              <option value="turkish language course">
+                Turkish Language Course
+              </option>
+              <option value="turkish language course">
+                Artificial Intelligence and Data Science
+              </option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="proficiency">Select your computer proficiency</label>
+            <select name="proficiency" id="proficiency" required>
+              <option value="">Select your computer proficiency</option>
+              <option value="none">None</option>
+              <option value="beginner">Beginner</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-control">
+            <label for="full-name">Full name</label>
+            <input
+              type="text"
+              name="name"
+              id="full-name"
+              placeholder="Full name"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="father-name">Father name</label>
+            <input
+              type="text"
+              name="father-name"
+              id="father-name"
+              placeholder="Father name"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="phone">Phone</label>
+            <input
+              type="number"
+              name="contact-number"
+              id="phone"
+              placeholder="Phone"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-control">
+            <label for="cnic">CNIC</label>
+            <input
+              type="number"
+              name="cnic"
+              id="cnic"
+              placeholder="CNIC"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="father-cnic">Father CNIC (optional)</label>
+            <input
+              type="number"
+              name="father-cnic"
+              id="father-cnic"
+              placeholder="Father CNIC (optional)"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-control">
+            <label for="dob">Date of birth</label>
+            <input type="date" name="dob" id="dob" required />
+          </div>
+          <div class="form-control">
+            <label for="gender">Select gender</label>
+            <select name="gender" id="gender" required>
+              <option value="">Select gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-control">
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-control">
+            <label for="qualification">Last qualification</label>
+            <select name="qualification" id="qualification" required>
+              <option value="">Last qualification</option>
+              <option value="matric">Matric</option>
+              <option value="undergraduate">Undergraduate</option>
+              <option value="graduate">Graduate</option>
+              <option value="masters">Masters</option>
+              <option value="phd">PHD</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-control">
+            <label for="laptop">Do you have a Laptop?</label>
+            <select name="laptop" id="laptop" required>
+              <option value="">Do you have a Laptop?</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-control">
+            <label for="pic">Picture</label>
+            <input
+              type="file"
+              name="pic"
+              id="pic"
+              accept=".jpg, .jpeg, .png"
+              required
+            />
+          </div>
+          <div class="form-control rules">
+            <ul>
+              <li>With white or blue background</li>
+              <li>File size must be less than 1MB</li>
+              <li>File type: jpg, jpeg, png</li>
+              <li>Upload your recent passport size picture</li>
+              <li>Your Face should be clearly visible without any Glasses</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+
+        <div class="row">
+          <div class="rules">
+            <ol>
+              <li>
+                I hereby, solemnly declare that the data and facts mentioned
+                herein are true and correct to the best of my knowledge.
+                Further, I will abide by all the established and future
+                regulations and policies of SWIT
+              </li>
+              <li>
+                I hereby accept the responsibilities of good conduct and
+                guarantee that I will not be involved in any other activity,
+                political or ethical, but learning during my stay in the
+                program.
+              </li>
+              <li>
+                Defiance will render my admission canceled at any point in time
+              </li>
+              <li>
+                Upon completion, of the course, I will complete the required
+                project by SWIT.
+              </li>
+              <li>
+                It's mandatory for female students to wear abaya/hijab in the
+                class
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-control">
+            <input type="submit" value="SUBMIT" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
